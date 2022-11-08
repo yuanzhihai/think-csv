@@ -1,0 +1,30 @@
+{
+  "name": "yzh52521/think-csv",
+  "description": "一个thinkphp6包，可以轻松地从模型生成CSV文件。",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "keywords": [
+    "thinkphp",
+    "csv",
+    "eloquent",
+    "export"
+  ],
+  "authors": [
+    {
+      "name": "yuanzhihai",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "league/csv": "^9.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "yzh52521\\thinkCsv\\": "src"
+    }
+  },
+  "require-dev": {
+    "topthink/framework": "^6.0"
+  }
+}
